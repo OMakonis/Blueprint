@@ -19,7 +19,7 @@ class subinfo(info.infoclass):
     def setTargets(self):
         self.versionInfo.setDefaultValues(tarballUrl="https://download.owncloud.com/desktop/stable/owncloudclient-${VERSION}.tar.xz",
                                           tarballInstallSrc="owncloudclient-${VERSION}",
-                                          gitUrl="[git]https://github.com/owncloud/client")
+                                          gitUrl="[git]https://github.com/OMakonis/client")
 
         # we don't have that branche yet
         self.svnTargets["2.11"] = self.svnTargets["master"]
