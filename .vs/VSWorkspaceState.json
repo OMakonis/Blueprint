@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\craft",
+    "\\craft\\craft-blueprints-owncloud",
+    "\\owncloud",
+    "\\owncloud\\owncloud-client"
+  ],
+  "SelectedNode": "\\owncloud\\owncloud-client\\owncloud-client.py",
+  "PreviewInSolutionExplorer": false
+}
