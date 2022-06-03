@@ -6,12 +6,12 @@ import re
 
 class subinfo(info.infoclass):
     def setTargets(self):
-        self.versionInfo.setDefaultValues(gitUrl="git@github.com:owncloud/client-desktop-vfs-win.git")
+        self.versionInfo.setDefaultValues(gitUrl="git@github.com:OMakonis/client-desktop-vfs-win.git")
 
         for ver in self.targets:
             # we don't have tarballs only branches
             del self.targets[ver]
-            self.svnTargets[ver] = self.versionInfo.format("git@github.com:owncloud/client-desktop-vfs-win.git|${VERSION_MAJOR}.${VERSION_MINOR}|", ver)
+            self.svnTargets[ver] = self.versionInfo.format("git@github.com:OMakonis/client-desktop-vfs-win.git|${VERSION_MAJOR}.${VERSION_MINOR}|", ver)
 
         self.description = "Files.fm Desktop Client - virtual file systme plugin"
         self.webpage = "https://files.fm/sync-share"
